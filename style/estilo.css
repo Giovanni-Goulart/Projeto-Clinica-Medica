@@ -137,26 +137,40 @@
   }
   
   .box-especialidades {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+    flex-direction: column; /* um embaixo do outro (como na sua imagem) */
+    gap: 40px;
   }
-  
-  .box-especialidade{
-    border-radius: 3px;
-    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
-    margin: 20px;
-    width: calc(100% / 3 - 40px);
-  }
-  
-  .box-especialidade img {
+
+  /* Card */
+.card {
+    position: relative; /* 🔥 IMPORTANTE (base para o texto ficar por cima) */
     width: 100%;
-  }
-  
-  .box-especialidade figcaption {
-    text-align: center;
-    padding: 10px;
-    text-transform: uppercase;
-  }
+    max-width: 700px;
+}
+
+/* Imagem */
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Texto sobre a imagem */
+.card figcaption {
+    position: absolute; /* 🔥 coloca em cima da imagem */
+    top: 20px;          /* distância do topo */
+    left: 20px;         /* distância da esquerda */
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    background: rgba(0, 0, 0, 0.6); /* fundo escuro transparente */
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
   
   .box-link-horarios {
     text-align: center;
