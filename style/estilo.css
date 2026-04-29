@@ -125,6 +125,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px; /* Adiciona espaço entre a imagem e o texto */
+    margin-top: 30px;
   }
   
   .box-sobre h3 {
@@ -140,6 +142,8 @@
    display: flex;
     flex-direction: column; /* um embaixo do outro (como na sua imagem) */
     gap: 40px;
+    align-items: center; /* Centraliza os cards horizontalmente */
+    margin-top: 30px;
   }
 
   /* Card */
@@ -176,15 +180,19 @@
     text-align: center;
     margin-top: 20px;
   }
+ /* .link-horarios:hover {
+    background-color: #0d6e71; /* Cor igual ao rodapé */
+    transition: 0.3s;
+}*/
   
   .link-horarios {
-    background-color: #00cad1;
-    color: #fff;
+    background-color: antiquewhite;
+    color:white
     font-weight: 600;
     text-transform: uppercase;
     padding: 10px 20px;
     text-decoration: none;
-  }
+  } 
 
   @media (max-width: 1024px) {
     .box-visao-geral { height: 400px;}
@@ -192,7 +200,7 @@
   
   @media (max-width: 768px) {
     .box-visao-geral { height: 300px;}
-    .box-sobre img { display: none;}
+    .box-sobre img {flex-direction: column; text-align: center;}
     .box-especialidades {justify-content: center;}
     .box-especialidade {
       width: calc(100% / 2 - 40px);
