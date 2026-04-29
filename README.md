@@ -19,8 +19,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Contato**: Informações de horário de funcionamento, endereço com mapa integrado e link para agendamento.
 * **Responsividade**: O site é adaptável para dispositivos móveis (tablets e smartphones).
 
-# 🏥 Clínica Médica Life
-
 > 🌐 **Acesse o site online:** CLIQUE AQUI PARA VISUALIZAR https://giovanni-goulart.github.io/Projeto-Clinica-Medica/
 
 Este é um projeto de um site institucional para uma clínica médica multiespecialidade...
