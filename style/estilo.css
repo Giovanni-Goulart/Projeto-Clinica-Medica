@@ -180,19 +180,15 @@
     text-align: center;
     margin-top: 20px;
   }
- /* .link-horarios:hover {
-    background-color: #0d6e71; /* Cor igual ao rodapé */
-    transition: 0.3s;
-}*/
   
   .link-horarios {
-    background-color: antiquewhite;
-    color:white
+    background-color: #00cad1;
+    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     padding: 10px 20px;
     text-decoration: none;
-  } 
+  }
 
   @media (max-width: 1024px) {
     .box-visao-geral { height: 400px;}
